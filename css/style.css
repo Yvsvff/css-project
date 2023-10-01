@@ -1,0 +1,83 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  body{
+    margin: 0.5rem;
+    font-family: "Young serif","Roboto", sans-serif ;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100px;
+    height: 80px;
+    margin-right: 1rem; /* Space to the right of the logo */
+    border-radius: 50%; /* Rounded border */
+    border: 5px solid #D2B48C; /* 3D-like border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 3D-like box shadow */
+}
+
+/* For screens larger than 768px (adjust as needed) */
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center horizontally */
+        background-color: #8B4513; /* Dark brown */
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-right: 0.5rem; /* Space to the right of the logo */
+    }
+
+    h1 {
+        margin: 0;
+        color: white; /* White text color */
+        margin-left: 0.5rem; /* Space between logo and h1 */
+    }
+}
+
+/* For screens 768px and smaller */
+@media screen and (max-width: 768px) {
+    header {
+        background-color: #8B4513; /* Dark brown */
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto 1rem;
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        color: white; /* White text color */
+    }
+}
+
+
+
+
+
+nav{
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 2rem;
+    line-height: 4rem;
+
+}
